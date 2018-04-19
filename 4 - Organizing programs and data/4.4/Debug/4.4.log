@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\liam\source\repos\accelerated c++\chapter 4\4.4\main.cpp(33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\liam\source\repos\accelerated c++\chapter 4\4.4\main.cpp(34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\liam\source\repos\accelerated c++\chapter 4\4.4\main.cpp(39): warning C4244: 'argument': conversion from 'std::streamsize' to 'const unsigned int', possible loss of data
+  4.4.vcxproj -> C:\Users\Liam\source\repos\Accelerated C++\Chapter 4\Debug\4.4.exe

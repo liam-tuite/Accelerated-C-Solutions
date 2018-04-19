@@ -1,0 +1,5 @@
+2-6:
+This loop prints the numbers 1 to 10.
+
+2-10:
+"std::cout" yields the name "cout" as it is defined in the "std" namespace. The "using" declaration is written to allow us to use the name "cout" as it is defined in the "std" namespace within this scope. Without a "using" declaration preceding this expression, the scope operator is necessary every time we wish to access the name "cout". The same goes for "std::endl", as "endl" is defined within the "std" namespace, and the "using" declaration from earlier does not extend to this scope.

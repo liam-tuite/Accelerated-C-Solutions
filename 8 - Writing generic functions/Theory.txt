@@ -1,0 +1,8 @@
+8-6:
+From back_inserter(x), we can infer that x a type of container which supports output iterator operations. From x.begin() and x.end(), we can tell that x is a type of container that supports input iterator operations.
+
+8-7:
+The max function has only one type parameter as there is no way of guaranteeing that the arguments supplied to the function are comparable with the '>' operator. By delegating the conversion to the caller, we prevent an unexpected error from being generated.
+
+8-8:
+The expression '(begin + end) / 2' won't compile as there is no defined operation for adding two iterators. So, instead we write '(end - begin)' to get a variable (of the iterator's difference type) representing the size of the container, which, when divided by 2 and added to the beginning iterator, gives us the midpoint of the container.

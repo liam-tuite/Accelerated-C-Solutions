@@ -1,0 +1,2 @@
+6-3:
+This code will crash when executed, as the use of v.begin() as the destination for std::copy does not allow the vector to grow in size. See 6.4 for the corrected version of this code.

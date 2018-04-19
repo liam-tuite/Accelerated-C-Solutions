@@ -1,0 +1,8 @@
+4-1:
+This code does not work as s.name.size() is of type string::size_type (which is size_t) and maxlen is of type int. To use max with both values as arguments, we could either cast s.name.size() to int, or cast maxlen to string::size_type, like so:
+max((int) s.name.size(), maxlen);
+or
+max(s.name.size(), (string::size_type) maxlen);
+
+4-8:
+f() must return a container (which supports the subscript/index operator) that contains values of a numeric data type.

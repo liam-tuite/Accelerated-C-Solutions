@@ -1,0 +1,14 @@
+0.1:
+When this statement is executed, the implementation evaluates the expression "3 + 4", yielding 7 as its result, but upon reaching the semi-colon this result is discarded.
+
+0.5:
+This program is invalid because the body of a function must be enclosed in braces, even if it is only a single statement.
+
+0.6:
+This program is valid (there are as many left-braces as right-braces)
+
+0.7:
+This program is invalid. When the compiler reaches the "*/", the preceding comment is ended. Immediately following this is "as its starting and ending delimiters */", which will cause the compiler to produce an error.
+
+0.8:
+This program is valid. When the compiler reaches the "*/", the rest of the line is still a comment as there is a preceding "//".

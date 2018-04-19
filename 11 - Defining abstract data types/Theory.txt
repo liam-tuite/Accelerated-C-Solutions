@@ -1,0 +1,11 @@
+11-1:
+None of these features were necessary for the Student_info class, as the synthesized versions of each function are sufficient for the purposes of the programs written in chapter 9. There is an issue with the synthesized functions usually only when a class or structure contains a pointer as a member, as the synthesized copy constructor or assignment operator will make the pointers in two different objects point to the same address.
+
+11-2:
+The class implements a default constructor so that we can prevent errors when trying to access undefined members of a Student_info object. With the default constructor, we can default-initialize a Student_info object and have its values set to zero (and the homework vector to be empty).
+
+11-3:
+The synthesized assignment operator for any object calls the assignment operator recursively on each member of the object. So, if we assign a Student_info object s1 to another object s2, the 'n' string, 'midterm' and 'final' doubles, and 'homework' vector will all share the same values in both s1 and s2 and each member of each object will occupy a unique space in memory.
+
+11-4:
+As the synthesized destructor for the Student_info class destroys each member recursively, the 'n', 'midterm' and 'final' members are destroyed, and the 'homework' vector's destructor is called, which will destroy the members of the vector accordingly. Since the destruction of a vector is not the responsibility of our code, we can only say that we know at least 3 members are destroyed when calling the synthesized destructor of a Student_info object.

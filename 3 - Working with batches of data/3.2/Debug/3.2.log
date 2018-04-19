@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\liam\source\repos\accelerated c++\chapter 3\3.2\main.cpp(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\liam\source\repos\accelerated c++\chapter 3\3.2\main.cpp(76): warning C4018: '<': signed/unsigned mismatch
+c:\users\liam\source\repos\accelerated c++\chapter 3\3.2\main.cpp(79): warning C4018: '<': signed/unsigned mismatch
+c:\users\liam\source\repos\accelerated c++\chapter 3\3.2\main.cpp(82): warning C4018: '<': signed/unsigned mismatch
+  3.2.vcxproj -> C:\Users\Liam\source\repos\Accelerated C++\Chapter 3\Debug\3.2.exe

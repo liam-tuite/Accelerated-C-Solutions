@@ -1,0 +1,7 @@
+This file contains a bunch of URLs, such as http://www.facebook.com
+A URL is a sequence of characters of the form: protocol-name://resource-name, so www.gmail.com is invalid.
+The protocol-name can consist only of letters, so 123://www.google.com is invalid, and https://www.google.com is valid.
+The resource-name may consist of letters and digits, so http://youtube123 is valid.
+The resource-name may also consist of certain punctuation characters. These characters are: ~;/?:@=&$-_.+!*'(),
+so http://////// is valid, and http://"~~~.com is invalid.
+http://www.facebook.com

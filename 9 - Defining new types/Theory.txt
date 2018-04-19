@@ -1,0 +1,5 @@
+9-2:
+If name is changed to a nonconst member, we must then update the compare function, as its parameters are both const Student_info references. This means that only const members can be called on these objects. Since this function requires the name function to be called on both arguments, the arguments can't be const if name is not const.
+
+9-7:
+To integrate this function with the Student_info class, simply move the function declaration (inside Student_info.h) to within the class Student_info. We then need to update the function definition (inside Student_info.cpp) to prefix the function name with 'Student_info::' to specify that the definition pertains to the Student_info scope. Following this, the function cannot be accessed publicly. See implementation of 9.7 for the code.

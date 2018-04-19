@@ -1,0 +1,21 @@
+1-1:
+Both definitions are valid. In the second definition: although it is illegal to concatenate two string literals, the first concatenation is between a string and string literal, and the second concatenation is between the resulting string from the first concatenation and another string literal. Both concatenations are legal, so the definition is valid.
+
+1-2:
+The first definition is valid, but the second is not as it attempts to concatenate the string literals "Hello" and ", world", which cannot be done.
+
+1-3:
+This program is valid. It prints "a string", followed by "another string". The variable s exists within two different scopes, outlined by the braces, so there is no conflict.
+
+1-4:
+This program is also valid. It would still be valid with the proposed change.
+
+1-5:
+This program is not valid, since the variable x is only valid within the braces in which it is declared. The program attempts to reference x outside of these braces, which will fail.
+
+1-6:
+The program output will look like this:
+
+What is your name? Samuel Beckett
+Hello, Samuel
+And what is yours? Hello, Beckett; nice to meet you too!
